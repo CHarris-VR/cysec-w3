@@ -10,9 +10,7 @@ print('Welcome to Pyhton for Cybersecurity!')
 analyst_name = input("enter your name: ")
 organization = input("Enter this system's role (e.g., web server, workstation): ")
 
-print("Analyst:", analyst_name)
-print("Ogranization:", organization)
-
+# Code for the systems Platform and os to be printed with current user.
 import platform
 import os
 print ("n--- System Information ---")
@@ -20,7 +18,7 @@ print ("Hostname:", platform.node())
 print ("Operating System:", platform.system(), platform.release())
 print ("Current User:", os.getlogin())
 
-# Added code to display the information of the entered Analyst name and role
+# Added code to display the information of the entered analyst name and role.
 
 print(f"\nSecurity Report for {analyst_name}")
 print("-------------------------------")
