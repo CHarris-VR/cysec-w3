@@ -21,7 +21,7 @@ print ("Current User:", os.getlogin())
 
 # Added code to display the information of the entered analyst name and role.
 
-print(f"\nSecurity Report for {analyst_name}")
+print(f"  Security Report for {analyst_name}")
 print("-------------------------------")
 print("System Role:", system_role)
 print("Hostname:", platform.node())
