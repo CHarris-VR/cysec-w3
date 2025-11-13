@@ -8,9 +8,10 @@ print('Welcome to Pyhton for Cybersecurity!')
 # Purpose: Print some basic info about the system
 
 analyst_name = input("enter your name: ")
-organization = input("Enter this system's role (e.g., web server, workstation): ")
+system_role = input("Enter this system's role (e.g., web server, workstation): ")
 
 # Code for the systems Platform and os to be printed with current user.
+
 import platform
 import os
 print ("n--- System Information ---")
