@@ -1,0 +1,3 @@
+Gathering system information like this can be useful in a real SOC or incident response investigation
+because you can figure out several things from data such as user account, OS and various other things.
+It's important to have tools like this python script to be able to quickly analyse data accurately.
