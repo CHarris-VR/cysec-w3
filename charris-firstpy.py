@@ -12,3 +12,10 @@ organization = "EvilCorp Cyber Defense"
 
 print("Analyst:", analyst_name)
 print("Ogranization:", organization)
+
+import platform
+import os
+print ("n--- System Information ---")
+print ("Hostname:", platform.node())
+print ("Operating System:", platform.system(), platform.release())
+print ("Current User:", os.getlogin())
